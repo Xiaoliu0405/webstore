@@ -182,6 +182,7 @@ section{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    animation: go 1s;
 }
 .product{
     color: #ffffff;
@@ -204,4 +205,5 @@ button{
     left: 200px;
     margin-bottom: 10px;
     border-radius: 10px;
+
 }
