@@ -182,7 +182,7 @@ section{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    animation: go 1s;
+    animation: fadeIn 1s;
 }
 .product{
     color: #ffffff;
@@ -192,7 +192,6 @@ section{
     border: 2px solid #262626;
     border-radius: 10px;
     margin: 30px 50px 0px 50px;
-    animation: fadeIn 0.5s;
 }
 .product i{
     color: #ffffff;
@@ -207,3 +206,4 @@ button{
     border-radius: 10px;
 
 }
+
