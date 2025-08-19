@@ -1,0 +1,207 @@
+@keyframes fadeIn{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@media (max-width:600px) {
+    .header h1{
+        position: relative;
+        text-align: center;
+        top: 0px;
+        left: 0px;
+    }
+    .header #order{
+        left: 0px;
+        bottom: 0px;
+        top: 20px;
+    }
+    .header #aside{
+        width: 300px;
+        height: 500px;
+        top: 0px;
+        left: 0px;
+    }
+    .header .check{
+        left:30px;
+    }
+    nav p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:768px) {
+    .header h1{
+        position: relative;
+        text-align: center;
+        top: 0px;
+        left: 0px;
+    }
+    .header #order{
+        left: 50px;
+        bottom: 0px;
+        top: 0px;
+    }
+    .header #aside{
+        width: 400px;
+        height: 500px;
+        top: 100px;
+        right: 0px;
+    }
+    .header .check{
+        left:30px;
+    }
+    body section{
+        top:50vh
+    }
+}
+
+@media (max-width:1024px) {
+    .header #order{
+        left: 50px;
+        bottom: 0px;
+        top: 0px;
+    }
+    .header #aside{
+        width: 400px;
+        height: 500px;
+        top: 60px;
+        right: 500px;
+    }
+    .header .check{
+        left:30px;
+    }
+}
+
+@media (max-width:1440px) {
+    .header #order{
+        left: 50px;
+        bottom: 0px;
+        top: 0px;
+    }
+    .header #aside{
+        width: 400px;
+        height: 500px;
+        top: 60px;
+        right: 150px;
+    }
+    .header .check{
+        left:30px;
+    }
+}
+*{
+    margin: 0px;
+    font-family: "Roboto", sans-serif,"Noto Sans TC", sans-serif;
+}
+/* 結帳 */
+#aside{
+    float: right;
+    padding:10px ;
+    background-color: #262626;
+    width: 500px;
+    height: 200px;
+    position: fixed;
+    top: 70px;
+    right: 250px;
+    border-radius: 10px;
+    z-index: 1;
+    display: none;
+}
+
+.check{
+    font-size: 30px;
+    margin: 0px 5px;
+    position: relative;
+    top: 30px;
+    left:230px;
+    border-radius: 10px;
+}
+
+#finalcheck{
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    font-size: 30px;
+}
+/* 頁首 */
+.header{
+    background-color: #262626;
+    padding: 30px;
+}
+h1{
+    color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    font-size: 30px;
+}
+.headButton{
+    color: #ffffff;
+    text-decoration: none;
+    float: right;
+    position: absolute;
+    top: 20px;
+    left: 70vw;
+}
+.headButton i{
+    font-size: 30px;
+}
+#order{
+    position: relative;
+    left: 250px;
+}
+/* 導覽 */
+.nav{
+    background-color: #e69900;
+    color: #ffffff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav p{
+    margin: 0px 50px;
+}
+.nav p:hover{
+    background-color: #c98600;
+}
+/* 預覽圖 */
+#navimg{
+    position: relative;
+    left: 5vw;
+    width: 90vw;
+}
+/* 內容 */
+img{
+    width: 300px;
+    border-radius: 10px;
+}
+section{
+    max-width: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product{
+    color: #ffffff;
+    background-color: #737373;
+    max-width: 300px;
+    display: inline-block;
+    border: 2px solid #262626;
+    border-radius: 10px;
+    margin: 30px 50px 0px 50px;
+    animation: fadeIn 0.5s;
+}
+.product i{
+    color: #ffffff;
+    font-size: 50px;
+}
+
+button{
+    background-color: #e69900;
+    position: relative;
+    left: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
